@@ -1,0 +1,32 @@
+{
+  "name": "flash-brand-leader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-update": "^0.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliano0662/flash-brand-leader.git"
+  },
+  "keywords": [],
+  "author": "Emiliano Carreño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiliano0662/flash-brand-leader/issues"
+  },
+  "homepage": "https://github.com/emiliano0662/flash-brand-leader#readme"
+}
