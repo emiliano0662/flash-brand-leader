@@ -1,31 +1,123 @@
 header {
+  z-index: 1;
 
+  .navbar-default {
+    padding: 0px 0px 30px 0px;
+    border: none;
+    background: transparent url('../img/bg-menu-main.png') left bottom / 100% auto no-repeat;
+
+    .navbar-header {
+
+      .navbar-brand {
+        height: auto;
+
+        img {
+          max-width: 250px;
+        }
+      }
+    }
+
+    .navbar-collapse {
+      padding-top: 35px;
+
+      .navbar-nav {
+
+        li {
+          padding: 0px 15px;
+
+          a {
+            padding: 12px 0px;
+            font-size: 25px;
+            color: #777777;
+            border-bottom: 1px solid #FFF;
+            
+            &:hover {
+              border-bottom: 1px solid #707070;
+            }
+          }
+
+          &:last-child {
+  
+            a {
+              padding-right: 30px;
+              background: transparent url('../img/icon-cart.png') right center no-repeat;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: $screen-md) {
+
+  header {
+
+    .navbar-default {
+
+      .navbar-collapse {
+
+        .navbar-nav {
+
+          li {
+
+            a {
+              font-size: 20px;
+              color: #777777;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: $screen-sm) {
 
   header {
 
-  }
-}
+    .navbar-default {
+      background: transparent url('../img/bg-menu-main.png') left bottom / 100% 45px no-repeat;
 
-@media (min-width: $screen-sm-min) {
+      .navbar-header {
 
-  header {
+        .navbar-brand {
 
-  }
-}
+          img {
+            max-width: 200px;
+          }
+        }
 
-@media (min-width: $screen-sm-min) and (max-width: $screen-md) {
+        .navbar-toggle {
+          margin-top: 25px;
+          border-color: #777777;
+        }
+      }
 
-  header {
+      .navbar-collapse {
+        padding-top: 0px;
 
-  }
-}
+        .navbar-nav {
 
-@media (min-width: $screen-md-min) and (max-width: $screen-lg) {
+          li {
 
-  header {
+            a {
+              padding: 18px 0px;
+              text-align: center;
+              font-size: 25px;
+            }
 
+            &:last-child {
+    
+              a {
+                padding-right: 0px;
+                background: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
