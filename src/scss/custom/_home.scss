@@ -4,8 +4,11 @@ main {
 
     &:nth-of-type(1) {
       height: 750px;
-      margin-top: -55px;
-      background: #FFF url('../img/img-banner-main.png') center bottom / cover no-repeat;
+      background-color: transparent;
+      background-image: url('../img/img-banner-main-top.png'), url('../img/img-banner-main-bottom.png'), url('../img/img-banner-main.png');
+      background-position: top center, bottom center, center center;
+      background-repeat: no-repeat, no-repeat, no-repeat;
+      background-size: 100% auto, 100% auto, cover;
 
       a {
         top: 250px;

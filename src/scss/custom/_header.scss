@@ -2,9 +2,10 @@ header {
   z-index: 1;
 
   .navbar-default {
-    padding: 0px 0px 30px 0px;
+    margin-bottom: 0px;
+    padding: 0px;
     border: none;
-    background: transparent url('../img/bg-menu-main.png') left bottom / 100% auto no-repeat;
+    background: #FFF;
 
     .navbar-header {
 
@@ -78,7 +79,6 @@ header {
   header {
 
     .navbar-default {
-      background: transparent url('../img/bg-menu-main.png') left bottom / 100% 45px no-repeat;
 
       .navbar-header {
 
