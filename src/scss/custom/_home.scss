@@ -144,6 +144,96 @@ main {
         }
       }
     }
+
+    &:nth-of-type(4) {
+      padding: 120px 0px;
+      background-color: transparent;
+      background-image: url('../img/img-banner-main-top.png'), url('../img/bg-form.png');
+      background-position: top center, top center;
+      background-repeat: no-repeat, repeat-x;
+      background-size: 100% auto, 1px 100%;
+
+      .container {
+        max-width: 1100px;
+
+        form {
+          padding: 50px 90px 40px 90px;
+          background-color: #FFF;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+
+          .row {
+            padding: 0px 50px;
+
+            &:nth-of-type(1) {
+              padding: 0px;
+            }
+          }
+
+          h2 {
+            margin: 0px 0px 50px 0px;
+            text-align: center;
+            font-family: 'HelveticaNeueBold';
+            font-size: 30px;
+            color: #373A3C;
+
+            span {
+              text-transform: uppercase;
+              font-family: 'HelveticaNeueBold';
+              font-size: 30px;
+              color: #57C1E8;
+            }
+          }
+          
+          hr {
+            border-color: #707070;
+          }
+
+          button {
+            width: 100%;
+            max-width: 260px;
+            margin-top: 35px;
+            padding: 13px 0px 9px 0px;
+            border: none;
+            background-color: #57C1E8;
+            text-transform: uppercase;
+            font-family: 'HelveticaNeueMedium';
+            font-size: 30px;
+            color: #FFF;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+          }
+
+          .form-group {
+
+            label {
+              font-size: 20px;
+              color: #373A3C;
+            }
+
+            p {
+              margin: 15px 0px 0px 0px;
+              line-height: 20px;
+              font-size: 20px;
+              color: #777777;
+            }
+
+            .form-control {
+              height: 44px;
+              border-color: #DDDDDD;
+              box-shadow: none;
+            }
+
+            textarea {
+              height: auto !important;
+            }
+
+          }
+        }
+      }
+    }
   }
 }
 
@@ -215,6 +305,84 @@ main {
 
           .content {
             padding: 20px 20px 30px 20px;
+          }
+        }
+      }
+
+      &:nth-of-type(4) {
+        padding: 0px 0px 100px 0px;
+        background: #FFF;
+
+        .container {
+
+          form {
+            padding: 0px;
+
+            .row {
+              padding: 0px;
+
+              > div {
+                padding: 0px;
+              }
+            }
+
+            h2 {
+              padding: 60px 30px;
+              background-color: #9F26B5;
+              margin: 0px 0px 25px 0px;
+              font-size: 20px;
+              color: #FFF;
+
+              span {
+                font-size: 20px;
+                color: #57C1E8;
+              }
+            }
+
+            button {
+              width: 100%;
+              max-width: 260px;
+              margin-top: 10px;
+              padding: 30px 60px 25px 60px;
+              font-family: 'HelveticaNeueMedium';
+              font-size: 20px;
+              color: #FFF;
+              background-color: #9F26B5;
+              -webkit-border-radius: 50px;
+              -moz-border-radius: 50px;
+              border-radius: 50px;
+              -webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.58);
+              -moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.58);
+              box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.58);
+            }
+
+            .form-group {
+              padding: 0px 35px;
+              
+              label {
+                font-size: 15px;
+                color: #373A3C;
+              }
+              
+              p {
+                font-size: 15px;
+                color: #777777;
+              }
+              
+            }
+            
+            .radio-inline {
+              width: 100%;
+              padding: 0px 50px;
+              margin: 0px 0px 5px 0px;
+            }
+
+            .g-recaptcha {
+
+              > div {
+                margin: 0px auto;
+              }
+            }
           }
         }
       }
