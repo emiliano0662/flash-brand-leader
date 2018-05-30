@@ -33,7 +33,10 @@ gulp.task('compile-scripts', ()=>
 	gulp.src([
 	    	'./src/js/jquery-3.3.1.min.js',
 	    	'./src/js/popper.min.js',
-	    	'./src/js/bootstrap.min.js',
+			'./src/js/bootstrap.min.js',
+			'./src/js/jquery.appear.js',
+			'./src/js/jquery.form-validator.min.js',
+			'./src/js/sweetalert2.min.js',
 	    	'./src/js/main.js'
 	    ])
 		.pipe(uglify())
