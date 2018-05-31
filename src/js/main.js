@@ -1,10 +1,3 @@
-var onloadCallback = function () {
-	
-	opt_grecaptcha = grecaptcha.render('g-recaptcha', {
-		'sitekey': '6Ldy_lsUAAAAAF1U6ABYE_7-bpAlGN_ray6F0KZV"'
-	});
-};
-
 $(document).ready(function() {
 
 	$.validate({
