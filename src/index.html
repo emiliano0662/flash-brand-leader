@@ -73,9 +73,9 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 			    <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">Mas información</a></li>
-			        <li><a href="#">¿Quien es Flash?</a></li>
-			        <li><a href="#">Carrito</a></li>
+			        <li><a href="http://www.oportunidadflash.mx/jmglobalassociates" target="_blank">Mas información</a></li>
+			        <li><a href="https://jmglobalassociates.flashmobile.mx/que_es_flash" target="_blank">¿Quien es Flash?</a></li>
+			        <li><a href="http://jmglobalassociates.acndirect.com/default.asp" target="_blank">Carrito <span class="icon-cart"></span></a></li>
 			    </ul>
 
 		    </div>
@@ -89,7 +89,7 @@
 	<section>
 		<div class="container-fluid">
 
-			<a href="#" class="hidden-xs">VER VIDEO</a>
+			<a href="#" class="hidden-xs" data-toggle="modal" data-target="#modal-video">VER VIDEO</a>
 
 		</div>
 	</section>
@@ -97,9 +97,9 @@
 	<section>
 		<div class="container">
 
-			<a href="#" class="visible-xs-block">VER VIDEO</a>
+			<a href="#" class="visible-xs-block" data-toggle="modal" data-target="#modal-video">VER VIDEO</a>
 
-			<p data-dinaanim="bounceIn" data-dinadelay="300">Nosotros somos JM Global Associates Empresarios Independientes de Flash Servicios, una compañía que opera en México ofreciendo servicios a través de la venta directa. Estamos respaldados por ACN, una empresa que ha revolucionado la venta directa en el mundo con presencia en 25 países que se dedica a comercializar servicios esenciales de telecomunicaciones, seguridad, televisión, energía y otros. Servicios sin los cuales la vida como la conocemos hoy no sería la misma.</p>
+			<p>Nosotros somos JM Global Associates Empresarios Independientes de Flash Servicios, una compañía que opera en México ofreciendo servicios a través de la venta directa. Estamos respaldados por ACN, una empresa que ha revolucionado la venta directa en el mundo con presencia en 25 países que se dedica a comercializar servicios esenciales de telecomunicaciones, seguridad, televisión, energía y otros. Servicios sin los cuales la vida como la conocemos hoy no sería la misma.</p>
 
 		</div>
 	</section>
@@ -185,12 +185,12 @@
 	<section>
 		<div class="container">
 	
-			<form id="form-pre-register" action="sendform.php" method="POST" data-dinaanim="bounceIn" data-dinadelay="300">
+			<form id="form-pre-register" action="sendform.php" method="POST">
 
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2><span>PRE-INSCRÍBETE</span><br>Recibe información y prepárate para la apertura de Colombia</h2>
+						<h2><span>PRE-REGÍSTRATE</span><br>Recibe información y prepárate para la apertura de Colombia</h2>
 
 					</div>
 				</div>
@@ -654,18 +654,38 @@
 	<div class="row">
 
 		<div class="col-md-9">
-			<a href="" target="_blank"><img src="./assets/img/logo-acn.png" class="img-responsive"></a>
+			<a><img src="./assets/img/logo-acn.png" class="img-responsive"></a>
 			<p>This website is created and maintained by Independent Business Owners of ACN.<br>Este sitio web fue creada y es mantenida por Empresarios Independientes de ACN</p>
 		</div>
 
 		<div class="col-md-3">
-			<a href="" target="_blank"><img src="./assets/img/logo-white.png" class="img-responsive"></a>
+			<a><img src="./assets/img/logo-white.png" class="img-responsive"></a>
 		</div>
 
 	</div>
 
   </div>
 </footer>
+
+<div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+
+			<div class="modal-body">
+
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EYeZAqfxIQ0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
 
 <script src="./assets/js/bundle.min.js" async></script>
 <script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit'></script>

@@ -27,50 +27,24 @@ header {
           padding: 0px 15px;
 
           a {
-            padding: 12px 0px;
-            font-size: 21px;
+            padding: 12px 0px 6px 0px;
+            font-size: 18px;
             color: #777777;
             border-bottom: 1px solid #FFF;
             
             &:hover {
-              border-bottom: 1px solid #707070;
+              border-bottom: 1px solid #777777;
             }
-          }
 
-          &:last-child {
-  
-            a {
-              padding-right: 30px;
-              background: transparent url('../img/icon-cart.png') right center no-repeat;
-            }
-          }
-        }
-      }
-    }
-
-  }
-}
-
-@media (max-width: $screen-md) {
-
-  header {
-
-    .navbar-default {
-
-      .navbar-collapse {
-
-        .navbar-nav {
-
-          li {
-
-            a {
-              font-size: 20px;
+            .icon-cart {
+              font-size: 17px;
               color: #777777;
             }
           }
         }
       }
     }
+
   }
 }
 
@@ -103,16 +77,12 @@ header {
           li {
 
             a {
-              padding: 18px 0px;
+              padding: 15px 0px;
               text-align: center;
-              font-size: 25px;
-            }
+              font-size: 22px;
 
-            &:last-child {
-    
-              a {
-                padding-right: 0px;
-                background: transparent;
+              .icon-cart {
+                font-size: 19px;
               }
             }
           }
