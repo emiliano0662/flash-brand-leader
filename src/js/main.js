@@ -11,6 +11,14 @@ $(document).ready(function() {
 		modules: 'security'
 	});
 
+	$('#modal-video').on('hidden.bs.modal', function (e) {
+
+		var url = $('#modal-video .modal-body .embed-responsive-item').attr('src');
+
+		$('#modal-video .modal-body .embed-responsive-item').attr('src', url);
+
+	});
+
 	$("#form-pre-register").submit(function (event) {
 		event.preventDefault();
 

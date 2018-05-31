@@ -58,7 +58,8 @@ main {
 
         p {
           margin: 0px;
-          line-height: 25px;
+          line-height: 24px;
+          font-size: 18px;
           color: #373A3C;
         }
       }
@@ -86,7 +87,7 @@ main {
             padding-bottom: 15px;
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
-            font-size: 23px;
+            font-size: 24px;
             background: transparent url('../img/line-bottom.png') left bottom / 90px 2px no-repeat;
           }
 
@@ -183,7 +184,7 @@ main {
             text-align: center;
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
-            font-size: 27px;
+            font-size: 25px;
             color: #373A3C;
 
             span {
@@ -220,6 +221,7 @@ main {
           .form-group {
 
             label {
+              font-weight: 400;
               font-size: 20px;
               color: #373A3C;
             }
@@ -231,7 +233,8 @@ main {
             p {
               margin: 15px 0px 0px 0px;
               line-height: 20px;
-              font-size: 20px;
+              font-weight: 400;
+              font-size: 19px;
               color: #777777;
             }
 
